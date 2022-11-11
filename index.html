@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Matching Detector</title>
+</head>
+<body>
+    <div class="main">
+        <h1>
+            Matching Detector
+        </h1>
+
+        <form>
+            <div class="textAreas">
+                <textarea id="text1" placeholder="Enter text 1"></textarea>
+                <textarea id="text2" placeholder="Enter text 2"></textarea>
+            </div>
+            <div class="buttons">
+                <button id="submit" type="submit">Submit</button>
+                <button id="clear" type="reset">Clear</button>
+            </div>
+        </form>
+            
+        <div class="matchingText">
+            <h4>Matching Percentage</h4>
+            <p id="percentage">0</p>
+            <p>
+                <span id="matchedWords"></span>
+                <span id="totalWords"></span>
+            </p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
